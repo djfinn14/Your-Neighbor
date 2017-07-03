@@ -1,0 +1,84 @@
+.stick-header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.centeredContent{
+    width: 1000px;
+    margin: auto;
+    background-image: url("img_tree.gif"), url("img_flwr.gif");
+    background-color: #cccccc
+}
+
+
+.image1 {
+  background-image: url("http://atmbrokerage.com/wp-content/uploads/2017/03/Boston-atm-route-for-sale.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+
+.caption1 {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: rgba(255, 255, 255, 0.65);
+  display: block;
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  font-style: italic;
+  line-height:30px;
+  margin-left: 20px;
+  padding: 10px;
+  position: relative;
+  top: 80%;
+  width: 60%;
+}
+
+.writer-img {
+  -webkit-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+  -moz-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+  box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+  float: left;
+  width: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+
+body{
+    background-color: gray  ;
+}
+
+input, select, button {
+  width: 100%
+}
+
+input[type=radio], input[type=checkbox] {
+  width: auto;
+}
+
+h1{
+    padding-top: 30px;
+}
